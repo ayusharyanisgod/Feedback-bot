@@ -14,19 +14,6 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HeimanPictures/Feedback-Bot/tree/Heroku/)
 
-### DF Way
-
-#### Terminal Or Some VPS Use This Way Of Deploy.. 😇
-```
-git clone https://github.com/HeimanPictures/Feedback-bot/tree/Heroku
-cd Feedback-bot
-virtualenv -p python3 VENV
-. ./VENV/bin/activate
-pip install -r requirements.txt
-cp configs.py
---- EDIT config.py values appropriately ---
-python bot.py
-```
 
 ## To-Do
 
